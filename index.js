@@ -4,25 +4,11 @@
 */
 
 
-// advance operator
+// strings
 
-// modulus
+var str = 'Hello';
 
-var x = 5;
-
-var y = x % 2;
-
-// increment
-
-var a = 56;
-
-var b = a++;
-// var c = ++a;
+var otherstr = "Hey";
 
 
-// decrement
-
-var p = 5;
-
-// var q = p--;
-var r = --p;
+// In javascript, string can contain UTF-8 characters.
