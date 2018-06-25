@@ -5,14 +5,16 @@
 
 
 // condition
-// else
+// else if
 
 
 var umbrellaMandatory;
 
 if (country == 'England'){
     umbrellaMandatory = true;
-} else{
+} else if (country == 'India'){
     umbrellaMandatory = false;
+} else if (country == 'France'){
+    umbrellaMandatory == true;
 }
 
