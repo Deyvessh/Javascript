@@ -4,22 +4,16 @@
 */
 
 
-// creation of a number
+// operator
 
+var a = 45.5656;
+var b = 44.45445;
+var c = 56556;
+var d = -323.4545;
 
-// float
-var a = 1.58;
+var add = a + b;
+var sub = b - c;
+var mul = d * b;
+var div = a / b;
 
-//integer
-var b = 23;
-
-
-
-
-// assignment
-
-var a = 11;
-
-var x = 10;
-
-var y = a;
+var x = ((a + b) / c * d);
