@@ -4,10 +4,9 @@
 */
 
 
-var fruit = "apple";
-var vegi = "potato";
+// variables
 
-console.log(fruit)
-console.log(vegi)
+var x = 5;
+var y = 10;
 
-var message = fruit + " " + vegi;
+var total = x + y;
