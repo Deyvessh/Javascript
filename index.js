@@ -23,3 +23,9 @@ var fullname = str1 + " " + str2;
 
 
 var str5 = "This " + "is " + "heaven";
+
+// length
+
+var str10 = 'fabulous';
+
+var str11 = str10.length;
