@@ -16,3 +16,10 @@ var b = 23;
 
 
 
+// assignment
+
+var a = 11;
+
+var x = 10;
+
+var y = a;
