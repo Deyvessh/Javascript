@@ -4,28 +4,29 @@
 */
 
 
-// strings
+// conditions
 
-var str = 'Hello';
+var country = 'India';
+var weather;
+var food;
+var currency;
 
-var otherstr = "Hey";
+if (country == 'America'){
+    weather = 'Warm';
+    food = 'Not that great!';
+    currency = 'USD';
+}
 
+if (country == 'India'){
+    weather = 'Cool';
+    food = 'Spicy';
+    currency = 'IND';
+}
 
-// In javascript, string can contain UTF-8 characters.
+if (country == 'Dubai'){
+    weather = 'Humid';
+    food = 'Worst taste';
+    currency = 'Dinar';
+}
 
-// concatenation
-
-var str1 = 'Devesh';
-
-var str2 = 'Kumar';
-
-var fullname = str1 + " " + str2;
-
-
-var str5 = "This " + "is " + "heaven";
-
-// length
-
-var str10 = 'fabulous';
-
-var str11 = str10.length;
+var final = 'I was in ' + country + ', The weather was ' + weather + ' and food was ' + food + ' , the currency of india is ' + currency + '.';
