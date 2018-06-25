@@ -1,3 +1,9 @@
+// Comments in js            --single line comment--
+/*
+         --Multiple line comment in Js--
+*/
+
+
 var fruit = "apple";
 var vegi = "potato";
 
