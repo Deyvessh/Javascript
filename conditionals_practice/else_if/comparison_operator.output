@@ -1,0 +1,37 @@
+
+
+---- Comparison Operator -----
+
+
+ == - equal to  "value should be equal, data type doesn't matter here"
+
+ === - equal value and equal type
+
+ != - not equal
+
+ !== - not equal value and type
+
+ > - greater than
+
+ < - less than
+
+ >= - greater than equal to
+
+ <= - less than equal to
+
+
+ -------  Logical Operators ---------
+
+
+  && - and - explained as and Operator
+
+  || - or - explained as or Operator
+
+  ! - not - explained as not Operator
+
+  ------ conditition ternery Operator --------
+
+  variablename = (condition) ? value1:value2 
+
+  
+

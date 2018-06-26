@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+     body{
+     font-weight: bold;
+    }
+
+    button{
+     background-color: lightseagreen;
+     color: white;
+     font-family: cursive;
+     border: none;
+     border-radius: 4px;
+     height: 40px;
+     width: 70px;
+     box-shadow: 1px 1px 2px gray;
+    }
+
+   #button:hover{
+     box-shadow: 2px 2px 7px grey;
+     transition-duration: 80ms;
+     transform: translate(2px, 3px);
+    }
+
+    #button:active{
+     transform: translate(-1px, 1px);
+     box-shadow: 1px 1px 2px grey;
+    }
+    </style>
+</head>
+<body>
+    <p>Validate your age to vote!</p>
+    <input id="age" value="18" type="number">
+    <button onclick="myfunction()" id="button">Try Me!</button>
+    <p id="test"></p>
+    <script src="ternery_operator.js"></script>
+</body>
+</html>
